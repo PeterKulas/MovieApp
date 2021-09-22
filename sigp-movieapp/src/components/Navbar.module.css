@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: rgb(73, 79, 82);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.navbar-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+.Link-style {
+  color: white;
+  text-decoration: none;
+}
+
+.Link-style:active,
+.Link-style:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
