@@ -29,7 +29,7 @@ code {
 
 .movie {
   background-color: rgb(15, 12, 12);
-  width: 500px;
+  width: 350px;
   padding: 10px;
 }
 
@@ -37,6 +37,7 @@ code {
   width: 100%;
   height: auto;
 }
+
 h3 {
   color: white;
 }
