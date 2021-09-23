@@ -27,7 +27,10 @@ const MovieDetail = ({ match }) => {
   const dispatch = useDispatch();
 
   const addMovieHandler = function () {
-    if (!favourites.includes(movieDetail)) {
+    if (
+      !favourites.includes(movieDetail) &&
+      !JSON.parse(localStorage.getItem("favourites")).includes(movieDetail)
+    ) {
       dispatch(favouriteMovieActions.addMovie(movieDetail));
     }
   };

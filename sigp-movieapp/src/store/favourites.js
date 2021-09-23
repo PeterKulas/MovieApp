@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   favouriteMovies: JSON.parse(localStorage.getItem("favourites")),
+  includeFilm: true,
 };
 
 const favouritesSlice = createSlice({
